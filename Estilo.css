@@ -1,0 +1,105 @@
+* {
+    margin: 0%;
+}
+
+.container {
+    width: 100%;
+    background-color: #500c63;
+}
+
+header {
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+nav ul{
+    background-color: #018310;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    font-family: 'Times New Roman', Times, serif;
+    
+    font-size: 40px;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    font-family: 'Times New Roman', Times, serif;
+    color: #500c63;
+    font-size: 40px;
+}
+
+h1 {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+section {
+    height: 600px;
+    width: 100%;
+    background-color: #500c63;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img-card {
+    height: 320px;
+}
+
+.texto-card {
+    color: white;
+    height: 80px;
+    width: 100%;
+    background-color: #018310;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:20px;
+    text-align: center;
+}
+
+.titulo-card {
+    color: white;
+    font-family: "Times New Roman", " Times", " serif";
+    font-size: 20px;
+    text-align: center;
+}
+
+p {
+    font-family: "Times New Roman", " Times", " serif";
+    font-size: 30px;
+}
+
+h3 {
+    color: #cc4436;
+}
+
+#cardapio {
+    width: 300px;
+
+}
+
+#rodape{
+    background-color: #018310;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+
+}
